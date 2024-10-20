@@ -10,9 +10,9 @@ import undiciRetry from "./src/scripts/undici-retry.js";
 import react from "@astrojs/react";
 // https://astro.build/config
 export default defineConfig({
-  site: "",
+  site: 'https://samara.com/',
   image: {
-    domains: [""],
+    domains: ["samara"],
     service: {
       entrypoint: "astro/assets/services/sharp",
       config: {
