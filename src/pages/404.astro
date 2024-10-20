@@ -1,0 +1,21 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Prose from "../components/Prose.astro";
+const pageTitle = "404: Page Not Found";
+const subTitle = "But Ron Burgundy Found You";
+const question = "Or did you find Ron Burgundy?";
+---
+
+<BaseLayout title={pageTitle} is404Page={true}>
+  <Prose>
+    <div class="space-y-8 py-8">
+      <header class="text-center space-y-4">
+        <h1
+          class="font-overpass-mono text-4xl text-gray-900 dark:text-[rgb(245,245,245)]"
+        >
+          {pageTitle}
+        </h1>
+      </header>
+    </div>
+  </Prose>
+</BaseLayout>
