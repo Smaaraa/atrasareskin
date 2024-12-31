@@ -17,16 +17,6 @@ html.dark {
   color: #fff;
 }
 
-/* body {
-  margin: 0 auto;
-  width: 100vw;
-  padding: 2rem 2rem 2rem 2rem;
-  line-height: 1.5;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-} */
-
 * {
   box-sizing: border-box;
 }

@@ -1,5 +1,4 @@
 ---
-import Hamburger from "./Hamburger.tsx";
 import Navigation from "./Navigation.astro";
 import ThemeToggle from "./ThemeToggle.astro";
 const { is404Page = false } = Astro.props;
@@ -11,7 +10,7 @@ const { is404Page = false } = Astro.props;
       !is404Page && (
         <div class="flex items-center h-[30px]">
           <a href="/" class="block">
-            <span>Samara</span>
+            <span>Smara</span>
           </a>
         </div>
       )
@@ -22,9 +21,6 @@ const { is404Page = false } = Astro.props;
           <>
             <div class="flex items-center justify-center h-[30px] w-[30px]">
               <ThemeToggle />
-            </div>
-            <div class="flex items-center justify-center h-[30px] w-[30px]">
-              <Hamburger client:load />
             </div>
           </>
         )

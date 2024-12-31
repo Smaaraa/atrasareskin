@@ -4,20 +4,17 @@ import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import "@fontsource-variable/overpass-mono";
 import "@fontsource-variable/inconsolata";
-import { getImage } from "astro:assets";
 let baseUrl = new URL(Astro.request.url).origin;
 
 const pageTitle = "samara";
 const metaDescription = "test";
 const {
-  image,
   description,
   author,
   pubDate,
   updatedDate,
   title,
   site_name,
-  alt,
   is404Page = false,
 } = Astro.props;
 ---
