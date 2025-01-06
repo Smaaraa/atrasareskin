@@ -1,7 +1,7 @@
 ---
 import { Image } from 'astro:assets';
 import BaseLayout from "../layouts/BaseLayout.astro";
-import anim_test from "../images/anim_test.gif";
+import image from "../images/hero_img.png"
 const { title, images, alt, urls, width, height } = Astro.props;
 ---
 
@@ -15,8 +15,8 @@ const { title, images, alt, urls, width, height } = Astro.props;
     data-width={JSON.stringify(width)}
     data-height={JSON.stringify(height)}
   >
-    <Image class="sm:h-[350px] lg:h-[700px] xl:h-[1000px] object-contain w-full object-center"
-    src={anim_test} alt="Placeholder for the perfume ad" />
+    <Image class="sm:h-[550px] lg:h-[700px] xl:h-[1000px] object-contain w-full object-center"
+    src={image} alt="Placeholder for the perfume ad" />
     <slot />
   </div>
 </BaseLayout>

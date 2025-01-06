@@ -1,3 +1,3 @@
-# Samara Landing Page
+# Atrasa Landing Page
 
-Based off the revisita theme.
+Temporarily based of the smara landing page.
